@@ -4,12 +4,14 @@ html, body {
   margin: 0 auto;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 850px) {
   html { font-size: 30px }
+  .container { flex-direction: row; }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 849px) {
   html { font-size: 22px }
+  .container { flex-direction: column; }
 }
 
 .container {
